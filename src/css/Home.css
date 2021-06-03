@@ -1,5 +1,5 @@
-.container{
-    background:url('../Images/header.png');
+.header{
+    background:url('../Images/Header.png');
     background-position: center;
     background-size: cover;
     height:100vh;
