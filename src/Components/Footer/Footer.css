@@ -6,4 +6,53 @@
     /* top: 200%; */
     /* height:100vh; */
     width: 100%;
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
 }
+
+.footer-div-icon{
+    display: flex;
+    align-items:flex-start;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+.footer-logo-img{
+    width:200px;height:100px;
+}
+
+.footer-div2 li{
+    line-height:35px;
+    list-style: none;
+}
+
+.footer-div3 li{
+    line-height:35px;
+    list-style: none;
+}
+
+
+.form-control{
+    width:100%;
+}
+
+.footer-div4-button{
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-div4-button:hover{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+
+
+

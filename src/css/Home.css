@@ -11,3 +11,60 @@
 h1{
     font-size:60px;
 }
+
+.home-sec2{
+    display: flex;
+    width:100%;
+    padding:50px;
+}
+
+.home-sec3{
+    justify-content: center;
+    text-align: center;
+}
+.home-sec3-header h2{
+    text-transform: uppercase;
+    font-weight:900;
+    font-size: 2rem;
+    line-height: 40px;
+}
+.home-sec3-header p{
+    padding-top:10px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#777c87;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+}
+
+.home-sec3-ul{
+    display: flex;
+   justify-content:center;
+   text-align: center;
+   column-gap:50px;
+    
+}
+.home-sec3-ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight:bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color:black;
+    padding-top: 20px;
+
+}
+.home-sec3-ul a{
+    text-decoration: none;
+}
+.home-sec3-ul a:hover{
+    text-decoration: underline;
+    color:#f79837
+
+}
+.home-sec3-product{
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px;
+}

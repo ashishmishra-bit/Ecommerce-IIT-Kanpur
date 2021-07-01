@@ -1,0 +1,54 @@
+.home-sec2-cards{
+    display:inline-block;
+    
+}
+.home-sec2-cards-img img{
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    z-index:1;
+}
+img:hover{
+    
+    /* transition: transform 1s, filter 0.5s ease-out; */
+    transition: transform 6s cubic-bezier(0.25,0.45,0.45,0.95);
+
+
+    transform: scale(1.1);
+}
+.home-sec2-cards-information{
+    padding:60px;
+    z-index:2;
+    position: absolute;
+    
+}
+.card-category {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f79837;
+}
+
+.card-title{
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.card-button{
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.card-button:hover{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
